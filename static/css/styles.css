@@ -1,0 +1,96 @@
+.navbar {
+    z-index: 1050; /* Ensure it's above other elements */
+}
+
+
+.icon-link i {
+    color: #000000; 
+    font-size: 1.5rem;
+                 }
+    .icon{
+        padding-left: 10px;
+    }
+   
+    .card-body {
+        padding: 1.5rem;
+    }
+    .btn-circle{
+        border-radius: 15px;
+        background-color: #008080 !important;
+    }
+    .about-card {
+        border: none;
+          }
+
+    .proj-img{
+        max-height: 300px;
+    }
+
+
+    body {
+        background-color: #121212;
+        color: #E0E0E0;
+        font-family: 'Lora', serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+    }
+    
+    a {
+        color: #007BFF;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+    
+    a:hover {
+        color: #39FF14;
+    }
+    
+    button {
+        background: #282828;
+        border: 2px solid #007BFF;
+        color: #E0E0E0;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+    }
+    
+    button:hover {
+        border-color: #39FF14;
+        box-shadow: 0 0 10px #39FF14;
+    }
+    
+    .card {
+        background: #1E1E1E;
+        border: 1px solid #282828;
+        padding: 20px;
+        border-radius: 10px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        color: white;
+    }
+    
+    .card-project:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .banner-text-fade{
+        animation: fadeInAnimation ease 5s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+    
+    html {
+        scroll-behavior: smooth;
+      }
