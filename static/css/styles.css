@@ -14,10 +14,15 @@
     .card-body {
         padding: 1.5rem;
     }
+    
     .btn-circle{
         border-radius: 15px;
         background-color: #008080 !important;
     }
+
+   
+    
+    
     .about-card {
         border: none;
           }
@@ -77,7 +82,6 @@
 
     .banner-text-fade{
         animation: fadeInAnimation ease 5s;
-        animation-iteration-count: 1;
         animation-fill-mode: forwards;
     }
 
@@ -94,3 +98,34 @@
     html {
         scroll-behavior: smooth;
       }
+
+      @media (max-width: 768px) {
+        .navbar-nav {
+            text-align: center;
+        }
+    
+        .card-body {
+            padding: 1rem;
+        }
+    
+        .icon-link i {
+            font-size: 1.2rem;
+        }
+    
+        .banner-text-fade {
+            font-size: 1.2rem;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .navbar-nav .nav-link {
+            padding: 0.5rem 1rem;
+        }
+    
+        .icon-link i {
+            font-size: 1.3rem;
+        }
+    }
+    
+
+  
